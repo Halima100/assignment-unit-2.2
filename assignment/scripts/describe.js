@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// number is = to 1
+// will add 1 
+// if number is greater than or equal to 2 
+//console will say yes
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The persons name is Dane 
+// If name is absolutely equal to Mary, console log 'Hi, Mary!'
+// if it's not equal to Mary, console will log 'How do you do?'
 //
 
 //CODE
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// secret code is 123
+// if code is equal to 123 secret will output as 123
+//code will be muplitlpled by 2
+// if less than 250 than secret will output as duper
 
 //CODE
 /*
@@ -90,7 +90,7 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
-
+// FIx change zip from 80000 to 55407 and age from 30 to 34
 */
 
 
@@ -134,6 +134,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne should be switched to blue, while colorTwo should be red. 
+//
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -151,6 +154,7 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+// FIX - change or to and && in if (temp > 39 || time >= 4) { if (temp > 39 && time >= 4) {
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +170,6 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+
+// FIX - change if(minAge <= age) to {if(minAge >= age) {
 
